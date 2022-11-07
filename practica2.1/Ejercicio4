@@ -1,0 +1,13 @@
+man uname
+uname --all
+
+kernel name (-s): Linux
+Node Name (username)(-n): umaru
+Kernel Release(-r): 6.0.5-200.fc36.x86_64
+Kernel Version(-v):#1 SMP PREEMPT_DYNAMIC Wed Oct 26 15:55:21 UTC 2022
+Machine(-m): x86_64
+Processor(-p): x86_64
+Hardware-platform(-i):x86_64
+Operating-system(-o):GNU/Linux
+
+

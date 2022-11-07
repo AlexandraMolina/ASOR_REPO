@@ -1,3 +1,5 @@
 # ASOR_REPO
-Alexandra Carolina Molina Ospina 
-Olenka Nicole Pinchi Lazo
+<ol>
+<li>Alexandra Carolina Molina Ospina </li>
+<li>Olenka Nicole Pinchi Lazo</li>
+</ol>

@@ -1,0 +1,9 @@
+id
+uid=1000(Carolina) gid=1000(Carolina) grupos=1000(Carolina),10(wheel) 
+
+context(-Z): unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+Group(-g):1000
+Groups(-G):1000 10
+Name(-n): -
+Real(-r): -
+User(-u): 1000

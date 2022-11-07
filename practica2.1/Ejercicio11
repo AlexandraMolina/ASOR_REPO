@@ -1,0 +1,6 @@
+man date 
+
+-I[FMT], --iso-8601[=FMT]: Example: 2006-08-14T02:34:56-06:00
+-R, --rfc-2822: Example: Mon, 14 Aug 2006 02:34:56 -0600
+--rfc-3339=FMT: Example: 2006-08-14 02:34:56-06:00
+-u, --utc, --universal: Example: mié ene 10 23:21:44 UTC 2018

@@ -1,0 +1,6 @@
+drwxr-xr-x. 1 umaru umaru 86 nov 19 23:55
+Tipo: directorio
+rwx propietario: Lectura, Escritura y Ejecución.
+rx Grupo: Lectura y Ejecución
+rx Otros: Lectura y Ejecución
+

@@ -1,0 +1,5 @@
+mkdir prueba
+chmod -x prueba/
+cd prueba
+
+bash: cd: prueba/: Permiso denegado

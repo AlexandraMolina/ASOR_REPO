@@ -1,0 +1,21 @@
+20: FLOCK  ADVISORY  WRITE 2436 00:19:1702 0 EOF
+21: POSIX  ADVISORY  WRITE 5445 00:1f:680 1073741826 1073742335
+22: POSIX  ADVISORY  READ 4209 00:1f:415 128 128
+23: POSIX  ADVISORY  READ 4209 00:1f:390 1073741826 1073742335
+24: POSIX  ADVISORY  READ 4209 00:1f:330 128 128
+
+
+1- indentificador del bloqueo
+2- Tipo de bloqueo
+    -POSIX el bloqueo se hizo con fcntl
+    -FLOCK el bloquo se hizo con flock
+3- Modo de bloqueo
+    -advisory: El acceso a los datos está permitido, evita otros bloqueos
+    -mandatory: acceso está denegado mientras está bloqueado
+4- Tipo de bloqueo:
+    -write: el proceso está escribiendo no se puede leer ni escrinir en una area bloqueada
+    -Read: El proceso está leyendo el area no puede ser modifciada
+5- PID del proceso que tiene el bloqueo sobre el fichero
+6- Identifica el fichero bloqueado
+7- Byte donde comienza el bloqueo en el fichero
+8- Byte donde acaba el bloqueo del fichero

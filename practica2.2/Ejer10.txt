@@ -1,0 +1,29 @@
+touch Sprueba
+mkdir SPdir
+ln -s Sprueba pruebaSimbolo
+ln -s SPdir PdirSimbolo
+ls -li
+
+63487 drwxr-xr-x. 1 umaru umaru     0 nov 20 13:11 SPdir
+63495 lrwxrwxrwx. 1 umaru umaru     4 nov 20 13:12 pdirSimbolo -> Pdir
+63480 -rw-r--r--. 1 umaru umaru     0 nov 20 13:11 Sprueba
+63490 lrwxrwxrwx. 1 umaru umaru     6 nov 20 13:11 pruebaSimbolo -> prueba
+
+
+
+touch prueba
+mkdir Pdir
+ln prueba pruebaRigido
+ln Pdir PdirRigido
+
+ln: Pdir: no se permiten enlaces fuertes para directorios
+
+ls -li
+
+63588 -rw-r--r--. 2 umaru umaru    0 nov 20 13:18 prueba
+63588 -rw-r--r--. 2 umaru umaru    0 nov 20 13:18 pruebaRigido
+
+
+Borrar un enlace rigido o un enlace simbolico no sucede nada
+pero si se borrar el archivo original se corrompe el enlace simbolico
+

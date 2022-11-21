@@ -1,0 +1,11 @@
+$man ls
+
+-a -> no ignare las entras que empiecen con "."
+-l -> Enumera archivo por linea
+-d -> enumera los directorios en si mismos, no su contenido
+-h -> Muestra el tamaño del archivo
+-i -> Muestra el inodo asociado a cada archivo
+-R -> Muestra recursivamente lo que hay en los directorios
+-1 -> Muestra un archivo por linea
+-F -> Clasifica la salida (/=>@|)
+--color= auto=never: Colorea o no la salida del ls según el tipo de archivo

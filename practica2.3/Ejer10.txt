@@ -1,0 +1,30 @@
+-SIGHUP:
+comportamiento: se ha terminado el proceso
+salida: colgar hangup
+-SIGINT:
+comportamiento: interrumpe sleep
+salida: N/A
+-SIGQUIT:
+comportamiento: interrumpe sleep
+salida: Abandona core generado
+-SIGILL:
+comportamiento: interrumpe sleep
+salida: instrucción ilegal core generado
+-SIGTRAP:
+comportamiento: interrumpe sleep
+salida: <<trap>> para punto de parada/seguimiento core generado
+-SIGKILL
+comportamiento: interrumpe sleep
+salida: termina killed
+-SIGBUS:
+comportamiento: interrumpe sleep
+salida: Error del bus core generado
+-SIGSEGV:
+comportamiento: interrumpe sleep
+salida: Violación de segmento core generado
+-SIGPIPE:
+comportamiento: interrumpe sleep
+salida: Notificación en pantalla
+-SIGTERM:
+comportamiento: interrumpe sleep
+salida: Terminado

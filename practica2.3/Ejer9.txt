@@ -1,0 +1,6 @@
+-Envia la señal kill a un proceso
+    kill 9
+-Manda una señal
+    kill -s 
+-Lista de todas las señales 
+    kill -l

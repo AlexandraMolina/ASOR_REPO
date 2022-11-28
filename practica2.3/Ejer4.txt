@@ -1,0 +1,11 @@
+man ps
+
+-muestra todos los procesos del usuario actual en formato extendido
+    ps -u $USER -f 
+
+-muestra los procesos del sistema, incluyendo PID del grupo, la sesión, el estado y comandos.
+    ps -eo pid,gid,sid,s,command 
+
+- PID, SID de la shell es el SID nuevo del proceso, comparten GID(1000)
+- identificador de grupo de procesos: 1000
+

@@ -1,0 +1,14 @@
+man chrt
+para consultar la planificación y la prioridad del proceso
+chrt -v -pa
+para cambiar la planificaicón
+-SCHED_OTHER
+    chrt -o -p 
+-SCHED_FIFO
+    chrt -o -f
+-SCHED_RR
+    chrt -o -p 
+
+Para modificar la prioridad
+nice -n -10 /bin/bash
+chrt -f -p 12 4606

@@ -1,0 +1,9 @@
+***Terminal 1***
+
+mkfifo tuberia
+ls -ls
+stat tuberia
+echo "Prueba" > tuberia
+
+***Terminal 2***
+cat tuberia
